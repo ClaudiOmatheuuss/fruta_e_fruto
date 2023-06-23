@@ -3,11 +3,28 @@
     display: flex;
     flex-direction: column;
     height: 24rem;
-    margin-right: 7rem;
     margin-bottom: 5rem;
-    width: calc(25% - 5rem);
 }
 
-.espacamentoesq{
-    margin-left: calc(10%);
+
+@media screen and (min-width: 0px) {
+    .receita {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 7rem;
+        width: calc(25% - 5rem);
+    }
 }
