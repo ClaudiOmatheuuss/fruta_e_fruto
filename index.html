@@ -36,16 +36,17 @@
         <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
         <link href="./assets/css/rodape/rodape.css" rel="stylesheet" />
         <link href="./assets/css/rodape/rodape-redes.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header class="cabecalho">
             <img class="logo" alt="Fruto & Fruta" src="./assets/img/logo.jpg"/>
             <nav class="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link ativo" href=#>Início</a></li>
-                    <li class="menu__item"><a class="menu__link" href=#>Receitas</a></li>
-                    <li class="menu__item"><a class="menu__link" href=#>Quem somos</a></li>
-                    <li class="menu__item"><a class="menu__link" href=#>Comunidade</a></li>
+                    <li class="menu__item"><a class="menu__link ativo" href=#sobre>Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href=#receitas>Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href=#quem-somos>Quem somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href=#rodape>Comunidade</a></li>
                 </ul>
             </nav>
         </header>
@@ -55,13 +56,13 @@
                 <h2 class="banner__titulo">Reaproveite melhor os alimentos</h2>
             </section>
             
-            <section class="sobre">
+            <section class="sobre" id="sobre">
                 <h2 class="sobre__titulo">Receitas para economizar e ganhar dinheiro</h2>
                 <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os
                 alimentos, economizar, ganhar tempo e praticidade</p>
             </section>
 
-            <section class="receitas">
+            <section class="receitas" id="receitas">
                 <div class="receita espacamentoesq">
                     <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/receitas/tigela-de-abacate.jpg" />
                     <div class="receita__conteudo">
@@ -111,7 +112,7 @@
                     </div>
                 </div>
             </section>
-            <section class="quem-somos">
+            <section class="quem-somos" id="quem-somos">
                 <h3 class="quem-somos__titulo">Quem somos</h3>
                 <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
                 <div class="pessoas">
@@ -133,10 +134,14 @@
                 </div>
             </section>
         </main>
-        <footer class="rodape">
+        <footer class="rodape" id="rodape">
             Contato: exemplo@gmail.com
             <div class="redes redes--redeX"></div>
             <div class="redes redes--redeY"></div>
         </footer>
+        <script src="assets/js/scroll.js"></script>
+        <a id="scrollToTop" href="#top" style="display: none;">
+            <i class="fa fa-arrow-up"></i>
+        </a>
     </body>
 </html>

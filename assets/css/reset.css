@@ -10,3 +10,24 @@ h1, h2, h3, h4, h5, h6 {
 ul, li {
     padding: 0;
 }
+
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    background: #8d0606;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+  }
+  
+  #scrollToTop:hover {
+    background: #555;
+  }
+  
