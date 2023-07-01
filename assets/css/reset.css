@@ -11,6 +11,27 @@ ul, li {
     padding: 0;
 }
 
+/* css do scroll */
+body::-webkit-scrollbar {
+    width: 7px;              
+}
+  
+body::-webkit-scrollbar-track {
+    background: #e5e5e5;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #8d0606;    
+    border-radius: 20px;    
+}
+
+  
+body::-webkit-scrollbar:active {
+    width: 10px;               
+}
+
+
+/* css do botao de scrollar para o início */
 #scrollToTop {
     display: none;
     position: fixed;
